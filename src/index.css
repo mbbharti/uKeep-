@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Header style */
+
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255 183 0);
+}
+.header h1{
+  color: white;
+  text-shadow: 0px 3px 60px white;
+  margin-bottom: 5px;
+  margin: 15px 5px;
+}
+.header .logo{
+  outline: none;
+  border: none;
+  margin: 9px 4px;
+  border-radius: 150%;
+}
+
+/* footer style */
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.foot{
+  text-align: center;
+}
+.mainNote{
+  width: 45%;
+  height: 30%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* main text area  */
+
+.mainNote form{
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px rgb(114, 106, 106);
+  border-radius: 7px;
+}
+.mainNote form input{
+  font-size: 17px;
+  width: 95%;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.mainNote form textarea{
+  font-size: 15px;
+  width: 95%;
+  border: none;
+  outline: none;
+  resize: none;
+  margin-top: 4px;
+}
+.mainNote form Button{
+  display:block;
+  height: 50px;
+  width: 10px;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  margin-left: 90%;
+  color: rgb(255 183 0);
+  
+}
+.mainNote form Button:hover{
+  background-color: rgb(255 183 0);
+  color: white;
+}
+
+/* saved Notes */
+
+.note{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 22%;
+  height: 15%;
+  padding: 0;
+  border-radius: 5px;
+  margin: 35px 20px;
+  box-shadow: 1px 1px 2px rgb(114, 106, 106);
+}
+.note:hover{
+  box-shadow: 2px 2px 15px rgb(114, 106, 106);
+}
+.note h1{
+  font-size: 15px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+.note p{
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.note Button{
+  display: block;
+  color: rgb(255 183 0);
+  margin-left: 78%;
+  border-radius: 50%;
+  width: 10px;
+}
+.note Button:hover{
+  background-color: rgb(255 183 0);
+  color: white;
+}
